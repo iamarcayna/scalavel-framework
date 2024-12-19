@@ -1,0 +1,67 @@
+logs
+target
+/.bsp
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+
+# General
+*.log
+*.tmp
+*.bak
+*.swp
+*.idea
+*.DS_Store
+
+# SBT
+/target/
+/project/target/
+/project/project/
+
+# Scala
+*.class
+*.cache
+*.log
+*.properties
+
+# Play Framework
+logs/
+bin/
+public/tmp/
+public/files/
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Metals
+.metals/
+.bloop/
+
+# g8 templates
+/.g8/
+
+# Operating System Files
+Thumbs.db
+.DS_Store
+
+# Application specific
+conf/*.secret
+conf/*.key
+
+# Tests
+/test-result/
+
